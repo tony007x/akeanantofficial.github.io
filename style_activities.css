@@ -8,9 +8,12 @@
 
 .navbar{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     background-color: black;
     box-shadow: 0px 0px 10px black;
+    position: fixed;
+    top: 0;
 }
 .navbar ul{
     display: flex;
@@ -27,7 +30,7 @@
 .navbar a{
     text-decoration: none;
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Athiti', sans-serif;
 }
 .navbar a:hover{
@@ -36,13 +39,11 @@
 .navbar a:active{
     color:rgb(0, 27, 79);
 }
-.header{
+.mainhead{
+    margin-top: 100px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
     font-family: 'Athiti', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
 }
 
 .firstproject{
@@ -55,14 +56,16 @@
     text-align: center;
     font-family: 'Athiti', sans-serif;
     margin: 20px;
-    
+    font-size: 1.5rem;
 }
 
 .picnsc{
     text-align: center;
+    margin: 40px;
 }
 .picnsc img{
-    width: 60%;
+    width: 80%;
+    box-shadow: 0px 0px 10px;
 }
 
 .nscbio{
@@ -71,24 +74,26 @@
 
 .nscbio h1{
     font-family: 'Athiti', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .nscbio p{
     font-family: 'Athiti', sans-serif;
     text-align: center;
-    font-size: 18px;   
+    font-size: 1.3rem;   
 }
 
 .video h1{
     font-family: 'Athiti', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .golink{
     text-align:center ;
+    
 }
 .golink a{
-    font-size: 50px;
+    font-size: 3rem;
     color: red;
+    
 }
 .golink a:hover{
     color: gray;
@@ -99,6 +104,36 @@
 hr {
     border-top: 2px solid;
     width: 50%;
-    margin: 50px auto;
+    margin: 30px auto;
 }
-/* ---------------- */
+/* -------EQ15------- */
+.clearfix{
+    clear: both;
+}
+
+.EQ15{
+    margin: 0px;
+    text-align: center;
+}
+.EQ15 h1{
+    text-align: center;
+    font-family: 'Athiti', sans-serif;
+    margin: 40px;
+    font-size: 1.5rem;
+}
+.cropeq15{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    margin: 40px;
+}
+.piceq1 img{
+    width: 100%;
+    box-shadow: 0px 0px 10px;   
+}
+.piceq2 img{
+    width: 100%;
+    box-shadow: 0px 0px 10px;
+}
+
+
