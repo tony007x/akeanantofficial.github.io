@@ -15,13 +15,22 @@
 </head>
  
 <body>
-    <div class="navbar">
+
+    <script>
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle('sticky',window.scrollY>0);
+        });
+    </script>
+
+
+    <header class="navbar">
             <ul>
               <a href="index.html"><li><i class="fa-solid fa-house"></i></li></a>
               <a href="Activities.html"><li>Activities</li></a>
               <a href=""><li>Certificates</li></a>
             </ul>
-    </div>
+    </header>
 
 
     <div class="container">
@@ -40,11 +49,15 @@
 
         </ul>
     <p class="bio">
-        Hi everyone! My name is Akeanant Poomdeesittinon. But you can call me Gun. Thank you for visitting my website.
+        Hi everyone! My name is Akeanant Poomdeesittinon. But you can call me Gun. Thank you for visit my website.
         I'm study at Rayongwitayakom School.
     </p>
     
     <hr>
+    <div class="underline">
+        <h1>Akeanant Poomdeesittinon © 2022. All right Reserved</h1>
+    </div>
+    
 
 
 
