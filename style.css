@@ -6,9 +6,14 @@
 }
 .navbar{
     width: 100%;
-    margin: 0% auto;
+    margin: 0;
+    padding: 0;
     background-color: black;
     box-shadow: 0px 0px 10px black;
+    position: fixed;
+    top: 0;
+    display: block;
+   
 }
 .navbar ul{
     padding-top: 20px;
@@ -38,13 +43,13 @@
 .container{
     max-width: 600px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .mainhead{
     text-transform: uppercase;
     font-size: 2em;
-    margin-top: 20px;
+    margin: 20px auto;
     padding-bottom: 20px;
     text-align: center;
     text-transform: bold;
@@ -93,7 +98,8 @@ img.pic {
     font-size: 20px;
     border-radius: 50%;
     background-color: wheat;
-    padding: 13px;  
+    padding: 13px;
+    box-shadow: 0px 0px 10px;  
 }
 .social-img ul li a:hover{
     color: gray;
@@ -119,7 +125,14 @@ p{
 hr {
     border-top: 1px solid;
     width: 50%;
-    margin: 50px auto;
+    margin: 30px auto;
+}
+
+.underline{
+    display: block;
+    text-align: center;
+    font-size: 0.5rem;
+    opacity: 70%;
 }
 
 
